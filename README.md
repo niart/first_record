@@ -17,8 +17,14 @@ Second, ```python aligned_map.py```
 <img src="https://github.com/niart/first_record/blob/710ecb5cac7bc13c5d935f7b82239cdbc1d2b397/map_motor_imu0.png" width=50% height=50%>
 </p>
 
-### Have a look at events and IMU
+### Have a look at the drifts of events and IMU
 run ```python vpr_davis_dataloader.py``` and will obtain:
 <p align="center">
-<img src="https://github.com/niart/first_record/blob/710ecb5cac7bc13c5d935f7b82239cdbc1d2b397/map_motor_imu0.png" width=50% height=50%>
+<img src="https://github.com/niart/first_record/blob/6cf3beb9aea5517b2d52d51430c4c6bd8168f446/drift.png" width=50% height=50%>
+</p>
+
+### The ground truth trajectory from motion capture system:
+run ```python vpr_davis_dataloader.py``` and will obtain:
+<p align="center">
+<img src="https://github.com/niart/first_record/blob/6cf3beb9aea5517b2d52d51430c4c6bd8168f446/ground_truth.png" width=50% height=50%>
 </p>
