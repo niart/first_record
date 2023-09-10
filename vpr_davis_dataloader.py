@@ -9,10 +9,10 @@ from numpy.lib.stride_tricks import sliding_window_view
 def cumtrapz_example(y, x):
     return np.cumsum(0.5 * ((x[1:] - x[:-1]) * (y[1:] + y[:-1])))
 
-with AedatFile("/home/niwang/toy_record/vpr_recordings/dvSave-2023_08_11_19_26_05.aedat4") as f:
+with AedatFile("/home/niwang/first_record/dataset/dvSave-2023_08_11_19_26_05.aedat4") as f:
     # events will be a named numpy array
     events = np.hstack([packet for packet in f['events'].numpy()])
-    motorcommands = np.loadtxt("/home/niwang/toy_record/vpr_recordings/0_motor_command.txt", dtype=str)
+    motorcommands = np.loadtxt("/home/niwang/first_record/dataset/0_motor_command.txt", dtype=str)
     timestamp_motor = []
     x_motor = []
     y_motor = []
