@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
 # Read data from file
-data = np.loadtxt('/home/niwang/toy_record/00_motor_command.txt', delimiter=',')
+data = np.loadtxt('/home/niwang/first_record/dataset/00_motor_command.txt', delimiter=',')
 
 timestamps = data[:, 0]
 v = data[:, 1]  # Linear velocity
