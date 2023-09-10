@@ -16,3 +16,9 @@ Second, ```python aligned_map.py```
 <p align="center">
 <img src="https://github.com/niart/first_record/blob/710ecb5cac7bc13c5d935f7b82239cdbc1d2b397/map_motor_imu0.png" width=50% height=50%>
 </p>
+
+### Have a look at events and IMU
+run ```python vpr_davis_dataloader.py``` and will obtain:
+<p align="center">
+<img src="https://github.com/niart/first_record/blob/710ecb5cac7bc13c5d935f7b82239cdbc1d2b397/map_motor_imu0.png" width=50% height=50%>
+</p>
