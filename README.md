@@ -1,2 +1,2 @@
-# Toy-recording
-a toy recording for indoor navigation dataset
+# First-record
+This repository contains necessary codes for my first recording and initial data processing
